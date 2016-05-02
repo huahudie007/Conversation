@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:anna="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.conversation.MainActivity">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </android.support.v4.view.ViewPager>`
+    <LinearLayout
+        android:background="@drawable/tab_bg"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <com.example.admin.conversation.ui.ChangeColorIconWithText
+            android:id="@+id/id_indicator_one"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            anna:micon="@mipmap/tab_weixin_normal"
+            anna:text="会话"
+            anna:text_size="12sp"
+            anna:color="#ff45c01a"
+
+            android:padding="5dp"/>
+        <com.example.admin.conversation.ui.ChangeColorIconWithText
+            android:id="@+id/id_indicator_two"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            anna:micon="@mipmap/tab_address_normal"
+            anna:text="通讯录"
+            anna:text_size="12sp"
+            anna:color="#ff45c01a"
+            android:padding="5dp"
+            />
+        <com.example.admin.conversation.ui.ChangeColorIconWithText
+            android:id="@+id/id_indicator_three"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            anna:micon="@mipmap/tab_find_frd_normal"
+            anna:text="发现"
+            anna:text_size="12sp"
+            anna:color="#ff45c01a"
+            android:padding="5dp"/>
+        <com.example.admin.conversation.ui.ChangeColorIconWithText
+            android:id="@+id/id_indicator_four"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            anna:micon="@mipmap/tab_settings_normal"
+            anna:text="设置"
+            anna:text_size="12sp"
+            anna:color="#ff45c01a"
+            android:padding="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

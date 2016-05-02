@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    android:orientation="vertical">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff">
+        <ImageView
+            android:id="@+id/iv_friend"
+            style="@style/imageLit"
+            android:src="@mipmap/find_1"/>
+        <TextView
+           style="@style/textv"
+            android:text="朋友圈"
+            android:layout_toRightOf="@id/iv_friend"/>
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff">
+        <ImageView
+            android:id="@+id/iv_friend2"
+            style="@style/imageLit"
+            android:src="@mipmap/find_2"/>
+        <TextView
+            style="@style/textv"
+            android:text="扫一扫"
+            android:layout_toRightOf="@id/iv_friend2"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#ffffff">
+        <ImageView
+            android:id="@+id/iv_friend3"
+            style="@style/imageLit"
+            android:src="@mipmap/find_3"/>
+        <TextView
+            style="@style/textv"
+            android:text="摇一摇"
+            android:layout_toRightOf="@id/iv_friend3"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff">
+        <ImageView
+            android:id="@+id/iv_friend4"
+            style="@style/imageLit"
+            android:src="@mipmap/find_4"/>
+        <TextView
+            style="@style/textv"
+            android:text="语音翻译"
+            android:layout_toRightOf="@id/iv_friend4"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#ffffff">
+        <ImageView
+            android:id="@+id/iv_friend5"
+            style="@style/imageLit"
+            android:src="@mipmap/find_5"/>
+        <TextView
+            style="@style/textv"
+            android:text="人脸识别"
+            android:layout_toRightOf="@id/iv_friend5"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

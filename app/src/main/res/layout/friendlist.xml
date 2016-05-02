@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/iv_fl"
+        android:padding="5dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="16dp"
+        android:src="@mipmap/pre2"/>
+    <TextView
+        android:id="@+id/tv_fl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小樱"
+        android:textColor="#000000"
+        android:textSize="16sp"/>
+
+</LinearLayout>
